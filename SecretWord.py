@@ -1,5 +1,7 @@
-secret_word = "Heyyy"
-user_guess = input("Try to guess the secret word :")
+secret_word = "Camembert"
+guess = input("Try to guess the secret word :")
+print (secret_word == guess)
 
-print(secret_word == user_guess)
-
+secret_word = "kiwi"
+guess = input("Enter a word beginning by k: ")
+print (secret_word == guess)
