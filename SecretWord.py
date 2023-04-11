@@ -1,5 +1,5 @@
 secret_word = "Camembert"
-guess = input("Try to guess the secret word :")
+guess = input("Try to guess the secret word : ")
 print (secret_word == guess)
 
 secret_word = "kiwi"
