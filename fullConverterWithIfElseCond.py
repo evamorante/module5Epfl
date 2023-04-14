@@ -1,7 +1,7 @@
 # exercise 13. - fullConverter with if condition
 def changeMoney(dollars):
     if dollars >= 100:
-        print("You're very rich")
+        print("You're converting more than 99 dollars and you're very rich")
 
     francs = dollars*1.02
     message = str(dollars)+" dollars are "+str(francs)+" francs."
