@@ -1,4 +1,5 @@
 var result = 9;
-if(var guess == var result){
+var guess = 7;
+if(guess == result){
     console.log("You Win !");
 }
