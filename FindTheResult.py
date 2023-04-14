@@ -1,8 +1,9 @@
+#exercise 13. - find some answers - if/else condition
 correct_answer = 9
 user_input = input("what is the result of 2 + 7 : ")
 if user_input == str(correct_answer):
-    print("Congratulations, you win !")
+  print("Congratulations, you win !")
 else :
-    print("Try it again !")
+  print("Try it again !")
 
 print("The game continues.")
