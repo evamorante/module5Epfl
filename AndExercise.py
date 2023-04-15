@@ -14,11 +14,11 @@ temperature_input = input("Is it today warm or cold ? : ")
 
 if weather_input == "raining" and temperature_input == "cold":
   print("Take an umbrella and a jacket")
-elif weather_input == "raining" and temperature_input != "cold":
+elif weather_input == "raining" and temperature_input == "warm":
   print("Take an umbrella and a t-shirt")
-elif weather_input != "raining" and temperature_input == "cold":
+elif weather_input == "sunny" and temperature_input == "cold":
   print("Take sunglasses and a jacket")
-elif weather_input != "raining" and temperature_input != "cold":
+elif weather_input == "sunny" and temperature_input == "warm":
   print("Take sunglasses and a t-shirt")
 else:
   print("Stay home !")
