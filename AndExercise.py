@@ -9,8 +9,8 @@
 
 #Can you translate this into a Python program? When you are done, translate it to JavaScript as well!
 
-weather_input = input("Is it today raining or sunny ? :")
-temperature_input = input("Is it today warm or cold ? :")
+weather_input = input("Is it today raining or sunny ? : ")
+temperature_input = input("Is it today warm or cold ? : ")
 
 if weather_input == "raining" and temperature_input == "cold":
   print("Take an umbrella and a jacket")
