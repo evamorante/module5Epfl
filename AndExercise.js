@@ -31,4 +31,5 @@ else if (weatherInput == "sunny" && temperatureInput == "warm"){
 else{
     print("Stay home !");
 }
-  
+
+// it works, but with the last inputs "cloudy" "middle" open the printer...but why ?
