@@ -12,9 +12,9 @@ number_one = input("Enter a number : ")
 number_two = input("Enter a second number : ")
 result = int(number_one) - int(number_two)
 
-if result >10:
-    print("The result is bigger than 10")
-elif result <10:
+if result >=10:
+    print("The result is bigger or egal than 10")
+elif result >0:
     print("The result is between 0 and 10")
 elif result == 0:
     print("The result is zero")
