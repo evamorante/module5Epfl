@@ -16,7 +16,7 @@ Display the function result in your tests in the console. */
 
 function askGender(gender){
     if (gender == "male"){
-        return ("Hello Sir ! Welcome back.");
+        return "Hello Sir ! Welcome back.";
     }
     else if(gender == "female"){
         return ("Hello Madam ! Welcome back.");
