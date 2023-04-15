@@ -7,25 +7,23 @@
 #For any other result, display The result is a negative number.
 #Whatever happens, display You can try again! just before the program exits.
 
-def substraction():
     
-    number_one = input("Enter a number : ")
-    number_two = input("Enter a second number : ")
-    result = int(number_one) - int(number_two)
-    return result
+number_one = input("Enter a number : ")
+number_two = input("Enter a second number : ")
+result = int(number_one) - int(number_two)
 
-
-print(substraction())
-
-
-if  >10:
+if result >10:
     print("The result is bigger than 10")
-elif substraction <10:
+elif result <10:
     print("The result is between 0 and 10")
-elif substraction == 0:
+elif result == 0:
     print("The result is zero")
 else:
     print("The result is not available")
 
 print("You can try again !")
+
+
+
+
 
