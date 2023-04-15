@@ -25,7 +25,7 @@ function askGender(gender){
         return ("Hello ! Welcome back.");
     }
 }
-
+//it works with or without parenthesis in the return function
 console.log(askGender("male"));
 console.log(askGender("female"));
 console.log(askGender("not specified"));
