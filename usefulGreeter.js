@@ -16,13 +16,13 @@ Display the function result in your tests in the console. */
 
 function askGender(gender){
     if (gender == "male"){
-        console.log("Hello Sir ! Welcome back.");
+        return ("Hello Sir ! Welcome back.");
     }
     else if(gender == "female"){
-        console.log("Hello Madam ! Welcome back.");
+        return ("Hello Madam ! Welcome back.");
     }
     else {
-        console.log("Hello ! Welcome back.");
+        return ("Hello ! Welcome back.");
     }
 }
 
