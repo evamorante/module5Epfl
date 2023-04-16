@@ -17,8 +17,8 @@ if number >10 and color == "blue":
 if number <=10 and color !="blue":
     print()
 
-if number >10 or color == "blue":
-    print("the test is true")
-if number <10 and color =="blue":
-    print("the test is True")
+#if number >10 or color == "blue":
+    #print("the test is true")
+#if number <10 and color =="blue":
+    #print("the test is True")
 
