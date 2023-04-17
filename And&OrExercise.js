@@ -3,10 +3,10 @@
 #If the number is bigger than 10 or the color is blue, the test is true.
 #If the number is not bigger than 10 and the color is not blue, the test is true.*/
 
-python = True
-javascript = True
-number = 12
-color = "blue"
+var python = True
+var javascript = True
+var number = 12
+var color = "blue"
 
 if (python || javascript){
      console.log("this is a good course");
