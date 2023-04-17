@@ -17,9 +17,9 @@ if (python && javascript){
 }
     
 if (number >10 || color == "blue"){
-    console.log("The number is greater than 10 or the color is blue");
+    console.log("The number is greater than 10 OR the color is blue");
 }
-if (number <=10 && color !="blue"){
-    console.log("The number is greater than 10 and the color is blue");
+if (number >10 && color == "blue"){
+    console.log("The number is greater than 10 AND the color is blue");
 }
     
