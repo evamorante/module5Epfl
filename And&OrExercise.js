@@ -8,11 +8,18 @@ javascript = True
 number = 12
 color = "blue"
 
-if python or javascript:
-    print("this is a good course")
-if python and javascript:
-    print("this is a TTC course")
-if number >10 and color == "blue":
-    print()
-if number <=10 and color !="blue":
-    print()
+if (python || javascript){
+     console.log("this is a good course");
+}
+   
+if (python && javascript){
+    console.log("this is a TTC course");
+}
+    
+if (number >10 || color == "blue"){
+    console.log("The number is greater than 10 or the color is blue");
+}
+if (number <=10 && color !="blue"){
+    console.log("The number is greater than 10 and the color is blue");
+}
+    
