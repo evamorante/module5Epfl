@@ -3,8 +3,8 @@
 #If the number is bigger than 10 or the color is blue, the test is true.
 #If the number is not bigger than 10 and the color is not blue, the test is true.*/
 
-var python = True
-var javascript = True
+var python = true
+var javascript = true
 var number = 12
 var color = "blue"
 
