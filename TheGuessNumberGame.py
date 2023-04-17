@@ -1,3 +1,4 @@
+#exercise 32./part 1 module 5
 #Ask the user for a number between 1 and 20.
 #Ask the user for a color.
 #Compare the user inputs with your own secret values. The rule is as follows:

@@ -1,3 +1,4 @@
+#exercice 32./part 2 module 5 - if/else cond. within a function
 #nombre = 24
 #couleur = "vert"
 

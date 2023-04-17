@@ -1,3 +1,4 @@
+//exercice 32./part 3 module 5 - if/else cond. within a function in js
 function guessGame (){
     var nombre = 24
     var couleur = "vert"
