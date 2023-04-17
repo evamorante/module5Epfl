@@ -19,7 +19,7 @@ couleur_question = input("Découvrez la couleur magique : ")
 
 if nombre == int(nombre_question) and couleur == couleur_question:
     print("Bravo, vous avez trouvé le nombre et la couleur magiques !")
-elif couleur == int(nombre_question) or couleur == couleur_question:
+elif nombre == int(nombre_question) or couleur == couleur_question:
     print("Bravo, vous avez trouvé un des deux mystères !")
 else:
     print("Vous n'avez trouvé aucun des deux mystères")
