@@ -1,3 +1,4 @@
+#exercice 30. module 5
 #If the language is Python or JavaScript, it is a good course.
 #If the languages are Python and JavaScript, this is the Thinking and Creating with Code course.
 #If the number is bigger than 10 or the color is blue, the test is true.
