@@ -8,6 +8,8 @@ python = True
 javascript = True
 number = 8
 color = "blue"
+if python or javascript:
+    print(python or javascript)
 
 if python or javascript:
     print("this is a good course")
